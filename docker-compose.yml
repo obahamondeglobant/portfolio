@@ -1,0 +1,9 @@
+services:
+
+  data_privacy:
+      container_name: data_privacy
+      build:
+        context: ./src/data_privacy
+        dockerfile: Dockerfile
+      ports:
+        - "8080:8080"
