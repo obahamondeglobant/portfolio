@@ -5,4 +5,4 @@ gcloud projects add-iam-policy-binding $PROJECT_ID --member "serviceAccount:$SER
 
 gcloud iam service-accounts keys create $KEY_FILE_NAME --iam-account $SERVICE_ACCOUNT_NAME@$PROJECT_ID.iam.gserviceaccount.com --project $PROJECT_ID
 
-echo "Credentials JSON file created: $KEY_FILE_NAME"
+echo "Credentials JSON file created: $KEY_FILE_NAME"	
